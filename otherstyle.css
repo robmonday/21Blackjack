@@ -1,0 +1,53 @@
+body {
+  background: #33CC33;
+  font-family: Arial;
+}
+
+h1, table {
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  width: 440px;
+  background: #E6E6B8;
+  padding: 3px;
+  text-align: center;
+}
+
+tr {
+  background: #E6E6B8;
+  text-align: left;
+}
+
+tr input {
+  display: float;
+  float: right;
+}
+
+div {
+  width: 440px;
+  display: float;
+  text-align: center;
+}
+
+#message {
+  font-size: 25;
+  color: blue;
+  background: white;
+  font-style: italic;
+  padding: 2px;
+}
+
+#gameover {
+  font-size: 25;
+  color: red;
+  background: white;
+  padding: 2px;
+}
+
+.required {
+  background:red;
+}
+
+#wager, #wallet, #handCount {
+  text-align: center;
+}
